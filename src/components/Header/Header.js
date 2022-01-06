@@ -1,44 +1,18 @@
+import { Row,Col} from "react-bootstrap";
+/*import styled from "styled-components";
+
+const NewForm=styled(Form)`
+    display:flex;
+    flex-direction:column;
+    align-items:stretch;
+`;*/
 const Header = () => {
-    return ( 
-        <>
-            <img src="https://sieleckimingo.com/wp-content/uploads/2020/10/logo-3p.png" alt="Logo" width={550} height={100}/>
-            {/*<div>
-                <div>
-                    <i class="fas fa-ambulance"></i>
-                    <p>Servicio de Alquiles de Ambulancias en Buenos Aires</p>
-                    <hr/>
-                    <p>Ofrecemos servicios para eventos sociales y deportivos.</p>
-                    <hr/>
-                    <p>Traslados a centro de vacunación COVID</p>
-                </div>                
-                <div>
-                    <form>
-                    <label>
-                        *Nombre y Apellido:
-                        <input type="text" name="name" />
-                    </label>
-                    <label>
-                        *Telefono:
-                        <input type="text" name="name" />
-                    </label>
-                    <label>
-                        *Email:
-                        <input type="text" name="name" />
-                    </label>
-                    <label>
-                        *Ciudad:
-                        <input type="text" name="name" />
-                    </label>
-                    <label>
-                        *Mensaje:
-                        <textarea></textarea>
-                    </label>
-                    <input type={"submit"}/>
-                   
-                    </form>
-                </div>                
-            </div> */}
-        </>
+    return (
+            <Row className="justify-content-center">
+                <Col md={6}>
+                    <img src="https://sieleckimingo.com/wp-content/uploads/2020/10/logo-3p.png" alt="Logo" width={550} height={100}/>
+                </Col>
+            </Row>
      );
 }
  
